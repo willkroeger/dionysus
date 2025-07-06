@@ -1,7 +1,7 @@
 /*Fonts*/
 @font-face {
     font-family: "Barbra Semicondensed";
-    src: url(../fonts/barbra-regular.ttf);
+    src: url(../fonts/barbra-regular.ttf) format('truetype');
 }
 
 .merriweather-title {
