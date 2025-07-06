@@ -1,0 +1,349 @@
+/*Fonts*/
+@font-face {
+    font-family: "Barbra Semicondensed";
+    src: url(/fonts/barbra-regular.ttf);
+}
+
+.merriweather-title {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.zilla-slab-light {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*Settings*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4c4d44;
+    width: 95%;
+    margin: 15px auto;
+}
+
+p {
+    font-family: "Crimson Text", serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+    color: #343723;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Barbra Semicondensed";
+    font-size: 250px;
+    color: #fcffa3;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #d8d9c7;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Crimson Text", serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #343723;
+    margin: 0;
+    padding: 20px;
+}
+
+h4 {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #343723;
+    margin: 0;
+    padding: 0 20px;
+}
+
+h4::before {
+    content: "• ";
+    left: 0;
+    top: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: #d8d9c7;
+}
+
+/*Layout*/
+#header {
+    background-image: url('imgs/dionysus-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    height: 100vh !important;
+    max-height: 650px;
+}
+
+.module {
+    text-align: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.container {
+    display: flex;
+}
+
+#area-panel{
+    display: grid;
+    position: sticky;
+    flex-shrink: 0;
+    flex-grow: 0;
+    z-index: 10;
+    max-height: 800px;
+    top: 0;
+    left: 0;
+}
+
+.box-panel {
+    background-color: #8b8c5d;
+    border: 2px solid #343723;
+}
+
+#area-content {
+    display: grid;
+    position: relative;
+    margin-left: 15px;
+    overflow-y: auto;
+}
+
+.box-content {
+    background-color: #8b8c5d;
+    border: 2px solid #343723;
+    overflow-x: hidden;
+    flex-grow: 1;
+}
+
+/*Main*/
+.title {
+    background-color: #322d37;
+    margin: 0;
+    padding: 10px 20px;
+    border-bottom: 2px solid #343723;
+}
+
+#nav-text {
+    line-height: 45px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#nav-text a{
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    color: #343723;
+    text-decoration: none;
+}
+
+#nav-text a:hover{
+    background-color: #d8d9c7;
+}
+
+.img-container {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    position: relative;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.dev-content {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: #d8d9c7;
+    border-bottom: 2px solid #343723;
+    margin: 50px 20px;
+}
+
+.dev-content h2 {
+    font-family: "Zilla Slab", serif;
+    color: #322d37;
+    padding: 30px;
+}
+
+/*Classes-FX*/
+img.hover-fx {
+    transition: 0.3s ease;
+}
+
+img.hover-fx:hover {
+    transform: scale(0.95);
+}
+
+img.oppacity-fx {
+    transition: filter 0.3s ease;
+}
+
+img.oppacity-fx:hover {
+    filter: brightness(0.7);
+}
+
+.italic-fx {
+    font-style: italic;
+}
+
+.bolder-fx {
+    font-weight: bolder;
+}
+
+/*Images*/
+.box-img {
+    background-color: #d8d9c7;
+    padding: 6px;
+    border-radius: 1%;
+    display: grid;
+}
+
+.box-img-title {
+    background-color: #322d37;
+    margin-top: 6px;
+}
+
+.box-img-title h3 {
+    font-family: "Zilla Slab", serif;
+    font-size: 23px;
+    color: #d9d9d9;
+    padding: 0;
+}
+
+.box-img p {
+    font-family: "Crimson Text", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #755d8c;
+    padding: 0;
+    padding-top: 6px;
+}
+
+#galeria > .container, #indicacoes > #jogos-container-id > .container {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#galeria > .container > .img-container > img, #indicacoes > #jogos-container-id > .container > .img-container > img {
+    object-fit: cover;
+    border-radius: 1%;
+}
+
+#galeria img:hover, #jogos-container-id img:hover {
+    cursor: pointer;
+}
+
+/*:::PANEL:::*/
+#dionysus-panel-id {
+    position: relative;
+    left: 20px;
+}
+
+#svg-id {
+    position: relative;
+    top: 16px;
+}
+
+#miranda-id {
+    position: absolute; 
+    left: 119px; 
+    bottom: 26px;
+    border-radius: 60%;
+    filter: blur(10px);
+}
+
+/*Galeria*/
+.swing {transition: transform 0.3s ease-in-out;}
+.back-img:hover + .swing {transform: rotate(5deg);}
+.back-img:active + .swing {transform: rotate(-5deg);}
+
+/*-Dionísio-*/
+#galeria > #topspan-dionisio > .img-container > img {
+    width: 250px;
+    height: 350px;
+}
+
+#galeria > #bottomspan-dionisio > .img-container > img {
+    max-height: 350px;
+    height: auto;
+}
+
+/*-Esculturas-*/
+#galeria > #topspan-esculturas > .grid-container > .img-container > img {
+    border-radius: 1%;
+}
+
+#galeria > #topspan-esculturas > .grid-container > .img-container > img, #galeria > #topspan-esculturas > .img-container > img {
+    width: 425px;
+}
+
+#galeria > #bottomspan-esculturas > .img-container > img {
+    max-height: 388px;
+    height: auto;
+}
+
+/*Indicações*/
+/*-Filmes-*/
+#filmes-container-id p {
+    padding-top: 0;
+}
+
+/*-Jogos-*/
+#jogos-container-id > .container > .img-container > img {
+    max-height: 200px;
+    height: auto;
+}
+
+/*-Músicas-*/
+#musicas-container-id > .container > .img-container {
+    margin: 20px;
+}
+
+#musicas-container-id > .container > .box-img > p {
+    color: #322d37; 
+    text-align: left; 
+    font-size: 20px; 
+    line-height: 25px;
+}
+
+#musicas-container-id > .container > p {
+    text-align: center; 
+    justify-content: center; 
+    margin: 6%;
+}

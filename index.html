@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-br" style="scroll-behavior: smooth;">
+    <head>
+        <!--Meta Tags-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--Favicon-->
+        <link rel="icon" type="image/png" href="imgs/favicons/dionysus-favicon.png">
+
+        <!--font-familys-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!--Importing Merriweather font-family in CSS-->
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+
+        <!--Crimson Text-->
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+        <!--Zilla Slab-->
+        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+        <!--Link CSS and JS-->
+        <link rel="stylesheet" href="style.css">
+        <script src="functions.js" defer></script>
+        <title>Dionysus </title>
+    </head>
+    <body>
+        <div id="header">
+            <div class="module">
+                <h1>Dionísio</h1>
+            </div>
+        </div>
+        <div class="container" style="margin-top: 20px;">
+            <!--:::PANEL:::-->
+            <div id="area-panel">
+                <div class="box-panel" style="height: 527px;">
+                    <div class="title">
+                        <h2>Conteúdo</h2>
+                    </div>
+                    <div class="container">
+                        <nav id="nav-text">
+                            <ul style="padding-left: 15px;">
+                                <li><a href="#quem-sou-eu">Quem sou eu?</a></li>
+                                <li><a href="#que-mito-e-esse">Que mito é esse?</a></li>
+                                <li><button id="btn-toggle-galeria">></button><a href="#galeria">Galeria</a></li>
+                                <ul id="ul-content-galeria" style="display: none;">
+                                    <li><a href="#dionisio-galeria">Dionísio</a></li>
+                                    <li><a href="#esculturas-galeria">Esculturas</a></li>
+                                </ul>
+                                <li><button id="btn-toggle-indicacoes">></button><a href="#indicacoes">Indicações</a></li>
+                                <ul id="ul-content-indicacoes" style="display: none;">
+                                    <li><a href="#filmes">Filmes</a></li>
+                                    <li><a href="#jogos">Jogos</a></li>
+                                    <li><a href="#musicas">Músicas</a></li>
+                                </ul>
+                            </ul>
+                        </nav>
+                        <div class="img-container">
+                            <img id="dionysus-panel-id" src="imgs/dionysus-panel.png" alt="Imagem do deus Dionísio segurando uma taça de vinho em sua mão direita e um açoite em sua outra mão" width="200px">
+                        </div>
+                    </div>
+                </div>
+                <div class="box-panel" style="margin-top: 10px; height: 312px;">
+                    <div class="img-container" style="position: relative;">
+                        <img id="svg-id"  src="imgs/svg-border.png" alt="Borda circular com estilo grego em torno da imagem" width="240px">
+                        <a href="#dev"><img id="miranda-id" class="hover-fx" src="imgs/miranda.jpg" title="Sobre o Desenvolvedor" alt="Imagem borrada aparentando uma pessoa" width="195px"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--:::CONTENT:::-->
+            <div id="area-content">
+                <div id="quem-sou-eu" class="box-content">
+                    <div class="title">
+                        <h2>Quem sou eu?</h2>
+                    </div>
+                    <div class="img-container" style="float: right;">
+                        <img src="imgs/dionysus01.png" alt="Imagem do deus Dionísio sentado enquanto segura uma taça de vinho direcionada ao alto" width="340px">
+                    </div>
+                    <p>
+                        Dionísio, do grego Διονύσιος - Dionysos, é o deus grego do vinho, da folia, e um dos mais importantes deuses da mitologia grega, mais tarde sendo considerado como patrono das artes.
+                    </p>
+                    <p>
+                        Filho de Zeus e Sêmele - embora seja dado como filho de Hades e Perséfone em algumas versões -, possuía um gênio instável: trazia alegria e entusiasmo celestial. Em antítese, evocava a raiva brutal e selvagem.
+                    </p>
+                    <p>Simbolicamente, sua natureza refletia os efeitos da ebriedade.</p>
+                    <p>É também conhecido como Baco (Βάκχος, Bákkhos), nome adotado pelos romanos.</p>
+                </div>
+                <div id="que-mito-e-esse" class="box-content">
+                    <div class="title">
+                        <h2>Que mito é esse?</h2>
+                    </div>
+                    <h3>Nascimento</h3>
+                    <div class="img-container" style="float: left;">
+                        <img src="imgs/dionysus02.png" alt="Pintura grega do deus Dionísio oferecendo vinho a uma pessoa sentada">
+                    </div>
+                    <p>
+                        Dionísio nasceu de um modo não-tradicional que refletiu certa dificuldade em encaixá-lo no panteão olímpico, uma vez que sua mãe, Sêmele, era uma mortal, e seu pai, Zeus, o rei dos deuses.
+                    </p>
+                    <p>
+                        A esposa de Zeus, Hera, uma deusa ciumenta e vaidosa, logo descobriu o caso enquanto Sêmele estava em período de gestação, disfarçando-se de uma velha bruxa (em outras histórias, uma enfermeira) e indo até ela.
+                    </p>
+                        
+                    <div class="img-container" style="float: right;">
+                        <img src="imgs/greek-wine.png" alt="Pintura grega de uma mulher ateniense apoiada em um vinho" width="350px">
+                    </div>
+                    <p>
+                        Sêmele, então, deu-lhe a informação de que esta era esposa de Zeus. Hera, no entanto, fingiu não acreditar nela e plantou sementes de dúvida para que esta desejasse ver a real face de seu amante.
+                    </p>
+                    <p>                      
+                        Curiosa, esta exigiu para que o senhor dos céus a revelasse sua verdadeira forma como prova de sua divindade. Os mortais, porém, são incapazes de ver o "real" módulo de um deus, assim, ela foi queimada
+                        sobrando apenas suas cinzas, e o palácio onde estava foi incendiado. O feto (Dionísio), foi salvo pelo pai, o qual decidiu costurá-lo em sua coxa. Poucos meses depois, Dionísio nasceu no monte Pramnos, na ilha de Ikaria.
+                    </p>
+                    <h3>Vida</h3>
+                    <p>
+                        Continuamente perseguido por Hera, Dionísio é criado por Hermes a mando de Zeus, protegendo seu filho da deusa do casamento. 
+                    </p>
+                    <p>
+                        Uma versão do mito fala que Hermes levou Dionísio para o rei Atamas e sua esposa, Ino, tia de Dionísio, pois Zeus planejava fazer do órfão Dionísio rei do Olimpo, mas Hera havia ouvido a respeito deste caso
+                        e, de tão furiosa, enviou os titãs para assassinar (desmembrar) o garoto Dionísio.
+                    </p>
+                    <div class="img-container" style="float: left;">
+                        <img src="imgs/dionysus-statue.png" alt="Estátua do pequeno Dionísio">
+                    </div>
+                    <p>
+                        Este havia pedido para o casal criar o garoto como uma garota, para escondê-lo da raiva irracional de Hera. <br>
+                        É assim que o garoto aprende a arte de fazer o vinho, conforme foi crescendo.
+                    </p>
+                    <p>
+                        Dionísio tornou-se deus pois, de acordo com o mito, Hera foi acorrentada por Hefesto como vingança após este ser lançado do Olimpo dado a sua aparência feia.
+                    </p>
+                    <p>
+                        Contudo, é dito que Dioniso conseguiu convencer o deus da tecnologia a soltar Hera de suas conrrentes que a aprisionavam embebedando-o.
+                    </p>
+                    <p>
+                        Sua figura na tradição popular dos gregos antigos o demonstra junto a uma videira e como um deus sempre acompanhado de ninfas e sátiros, seres estes que possuíam o corpo parte humano e parte na forma de bode.
+                    </p>
+                </div>
+                <div id="galeria" class="box-content">
+                    <div class="title">
+                        <h2>Galeria</h2>
+                    </div>
+
+                    <!--Dionísio-->
+                    <h3 id="dionisio-galeria">Dionísio</h3>
+                    <div id="topspan-dionisio" class="container">
+                        <div class="img-container box-img" style="position: relative;">
+                            <img class="hover-fx back-img" src="imgs/dionysus03.png" alt="Pintura do deus Baco (Dionísio) bebendo vinho, por Guido Reni">
+                            <img class="swing" src="imgs/green-ivy-dionysus.png" alt="Videira censurando Baco" style="position: absolute; bottom: 135px; left: 100px; max-height: 200px; height: auto; max-width: 100px;">
+                            <div class="box-img-title">
+                                <h3>Guido Reni (1565 - 1642)</h3>
+                            </div>
+                            <p>“Drinking Bacchus” - 1623, <br>óleo sobre tela</p>
+                        </div>
+                        <div class="img-container box-img">
+                            <img class="hover-fx" src="imgs/dionysus04.png" alt="Pintura de Dionísio, por Caravaggio">
+                            <div class="box-img-title">
+                                <h3>Caravaggio (1571 - 1610)</h3>
+                            </div>
+                            <p style="padding: 14px;">“Baco” - 1595, óleo sobre tela</p>
+                        </div>
+                        <div class="img-container box-img">
+                            <img class="hover-fx" src="imgs/dionysus05.png" alt="Pintura de Baco adoecido, por Caravaggio">
+                            <div class="box-img-title">
+                                <h3>Caravaggio (1571 - 1610)</h3>
+                            </div>
+                            <p>“Pequeno Baco Doente” - 1593, <br>óleo sobre tela</p>
+                        </div>
+                    </div>
+                    <div id="bottomspan-dionisio" class="container" style="margin-top: 50px;">
+                        <div class="img-container box-img">
+                            <img class="hover-fx" src="imgs/dionysus06.png" alt="Baco montado sobre um leopardo, por um autor desconhecido">
+                            <div class="box-img-title">
+                                <h3>Autor desconhecido</h3>
+                            </div>
+                            <p>“Baco, montando um leopardo” : 1º - 2º séc. d.C., mosaico</p>
+                        </div>
+                        <div class="img-container box-img">
+                            <img class="hover-fx" src="imgs/dionysus07.png" alt="Pintura de um vaso ateniense de figuras vermelhas de Dionísio">
+                            <div class="box-img-title">
+                                <h3>Cleófrades (510a.C. - 470a.C.)</h3>
+                            </div>
+                            <p>Pintura de um vaso ateniense de figuras vermelhas de Dionísio</p>
+                        </div>
+                    </div>
+
+                    <!--Esculturas-->
+                    <h3 id="esculturas-galeria" style="padding-top: 40px;">Esculturas</h3>
+                    <div id="topspan-esculturas" class="container">
+                        <div class="grid-container">
+                            <div class="img-container" style="margin-bottom: 55px;">
+                                <img class="hover-fx" src="imgs/dionysus08.png" alt="Escultura do deus Baco">
+                            </div>
+                            <div class="img-container">
+                                <img class="hover-fx" src="imgs/dionysus09.png" alt="Escultura do deus Hermes com o infante Dionísio">
+                            </div>
+                        </div>
+                        <div class="img-container">
+                            <img class="hover-fx back-img" src="imgs/dionysus10.png" alt="Escultura de Dionísio, por Michelangelo">
+                            <img class="swing" src="imgs/green-ivy-sculpture.png" alt="" style="position: absolute; bottom: 250px; left: 135px; max-height: 375px; height: auto; max-width: 125px;">
+                        </div>
+                    </div>
+                    <div id="bottomspan-esculturas" class="container">
+                        <div class="img-container">
+                            <img class="hover-fx" src="imgs/dionysus11.png" alt="Escultura do deus Baco segurando uma taça e um cacho de uvas, por Michelangelo">
+                        </div>
+                        <div class="img-container">
+                            <img class="hover-fx" src="imgs/dionysus12.png" alt="Escultura do deus Dionísio segurando um cacho de uvas próximo a cabeça">
+                        </div>
+                    </div>
+                </div>
+                <div id="indicacoes" class="box-content">
+                    <div class="title">
+                        <h2>Indicações</h2>
+                    </div>
+
+                    <!--Filmes-->
+                    <h3 id="filmes">Filmes</h3>
+                    <div id="filmes-container-id">
+                        <h4><span class="italic-fx">Um Balde de Sangue</span> - Roger Corman, 1959</h4>
+                        <div class="img-container">
+                            <img src="imgs/um-balde-de-sangue.png" alt="Imagem de um homem com cigarro e boina, do filme Um Balde de Sangue (1959), por Roger Corman" width="750px">
+                        </div>
+                        <p style="margin-bottom: 20px;">
+                             Em uma tentativa falha de impressionar uma colega de trabalho, um garçom acaba acidentalmente matando um gato. Com medo das consequências, ele esconde o corpo com uma camada de gesso, mas seu crime acaba sendo confundido com uma obra de arte pelos artistas beatnik que frequentam o café onde ele trabalha. O desejo por mais elogios logo leva o homem a uma série cada vez mais mortal de obras. A <span class="italic-fx" style="color: #D8D9C7; background-color: #322d37;">arte e a comédia melodramática dionisíacas</span> são muito bem estruturadas em <span style="font-weight: bold;">Um Balde de Sangue</span>.
+                        </p>
+
+                        <h4><span class="italic-fx">Eraserhead</span> - David Lynch, 1977</h4>
+                        <div class="img-container">
+                            <img src="imgs/eraserhead.png" alt="Imagem de homem com cabelos arrepiados olhando fixamente para a câmera, do filme Eraserhead (1977), por David Lynch" width="750px">
+                        </div>
+                        <p style="margin-bottom: 20px;">
+                            Neste clássico de estréia do consagrado diretor <span style="font-weight: bold;">David Lynch</span>, acompanhamos Henry Spencer, o qual junto com sua namorada Mary tem um bebê que nasceu prematuro e é desumano. Assim, tenta sobreviver em seu ambiente industrial, sua parceira zangada e os gritos insuportáveis de seu filho mutante recém-nascido. Um humor negro bem representativo dos <span class="italic-fx" style="color: #D8D9C7; background-color: #322d37;">prazeres de Baco</span> em conjunto com sua <span class="italic-fx" style="color: #322d37; background-color: #D8D9C7;">impiedade divina</span>. 
+                        </p>
+
+                        <h4><span class="italic-fx">Quem Tem Medo de Virgínia Woolf</span> - Mike Nichols, 1966</h4>
+                        <div class="img-container">
+                            <img src="imgs/quem-tem-medo-de-virginia-woolf.png" alt="Cena do filme Quem Tem Medo de Virgínia Woolf (1966), por Mike Nichols" width="750px">
+                        </div>
+                        <p style="margin-bottom: 20px;">
+                            George, um professor alcoólatra, e Martha, uma mulher frustrada e dominadora, são casados e se odeiam. Uma tarde, eles convidam um novo professor e sua esposa para um drinque e utilizam seus jovens hóspedes para alimentar a angústia emocional um pelo outro durante uma noite aflituosa. A dicotomia <span style="color: #D8D9C7; background-color: #322d37;">apolíneo-dionisíaca é explorada nesta adaptação do texto teatral homônimo</span> através da relação entre George e Martha, que usam <span style="color: #D8D9C7; background-color: #322d37;">ilusões e jogos mentais</span> para lidar com a falta de significado em suas vidas.
+                        </p>
+
+                        <h4><span class="italic-fx">Requiém para um Sonho</span> - Darren Aronofsky, 2001</h4>
+                        <div class="img-container">
+                            <img src="imgs/requiem-para-um-sonho.png" alt="Imagem de duas pessoas deitadas contrárias a elas, do filme Requiém para um Sonho (2001), por Darren Aronofsky" width="750px">
+                        </div>
+                        <p style="margin-bottom: 20px;">
+                            O filme <span style="font-weight: bold;">Requiém para um Sonho</span>, dirigido por Darren Aronofsky, trata da realidade brutal da dependência de
+                            pessoas envolvidas com seus sonhos e expectativas. São histórias marcadas por idealizações, fantasias
+                            e esperança, trajetórias diferentes, mas com algo em comum: a tentativa de alcançar a tão sonhada
+                            felicidade. Esta <span class="italic-fx" style="color: #322d37; background-color: #D8D9C7;">felicidade apolínea</span> manifesta-se, inevitavelmente, em uma <span class="italic-fx" style="color: #D8D9C7; background-color: #322d37;">tragédia dionísiaca</span>, com a destruição dos sonhos e a perda da esperança.
+                        </p>
+
+                        <h4><span class="italic-fx">The Rocky Horror Picture Show</span> - Jim Sharman, 1975</h4>
+                        <div class="img-container">
+                            <img src="imgs/the-rocky-horror-picture-show.png" alt="Imagem de três personagens do filme The Rocky Horror Picture Show (1975), por Jim Sharman" width="750px">
+                        </div>
+                        <p>                            
+                            O casal Brad e Janet sofre um furo no pneu de seu carro em uma área isolada em meio a uma tempestade, e visitam a estranha misteriosa mansão do louco cientista Dr. Frank-N-Furter que, na verdade, é um travesti alienígena que cria um homem musculoso em seu laboratório. O musical queer de comédia e terror aborda muito bem <span class="italic-fx" style="color: #322d37; background-color: #D8D9C7;">a extravagância, a transgressão e o prazer</span> associados a <span class="italic-fx" style="color: #D8D9C7; background-color: #322d37;">Dionísio</span>.
+                        </p>
+                    </div>
+
+                    <!--Jogos-->
+                    <h3 id="jogos">Jogos</h3>
+                    <div id="jogos-container-id">
+                        <div class="container" style="padding: 20px;">
+                            <div class="img-container box-img">
+                                <img class="hover-fx" src="imgs/silent-hill-3.png" alt="Arte de capa do jogo Silent Hill 3">
+                            </div>
+                            <div class="img-container box-img">
+                                <img class="hover-fx" src="imgs/fatal-frame.png" alt="Arte de capa do jogo Fatal Frame">
+                            </div>
+                            <div class="img-container box-img">
+                                <img class="hover-fx" src="imgs/tlouii.png" alt="Arte de capa do jogo The Last of Us, Part II">
+                            </div>
+                            <div class="img-container box-img">
+                                <img class="hover-fx" src="imgs/mario-party.png" alt="Arte de capa do jogo Mario Party">
+                            </div>
+                            <div class="img-container box-img">
+                                <img class="hover-fx" src="imgs/pico-park.png" alt="Arte de capa do jogo Pico Park">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Músicas-->
+                    <h3 id="musicas">Músicas</h3>
+                    <div id="musicas-container-id">
+                        <!--King Crimson - Fallen Angel--> 
+                        <h4>King Crimson - <span class="italic-fx">"Fallen Angel", Red (1974)</span></h4>
+                        <div class="container">
+                            <div class="img-container box-img">
+                                <a href="https://www.youtube.com/watch?v=eLlmbCkb3As" target="_blank">
+                                    <img class="oppacity-fx" src="imgs/king-crimson.png" alt="Arte de capa do álbum Red, de King Crimson" width="300px">
+                                </a>
+                                <p>
+                                    <span class="bolder-fx">King Crimson</span><br>
+                                    <span class="italic-fx">Red (1974)</span><br>
+                                    Fallen Angel
+                                </p>
+                            </div>
+                            <p style="padding: 5px; padding-top: 20px;">
+                                O sétimo álbum da banda inglesa de <span class="italic-fx">prog rock</span>, <span class="italic-fx" style="color: #8E2019; background-color: #D8D9C7;">Red</span>, lançado em 1974 por <span style="font-weight: bold; background-color: #D8D9C7;">King Crimson</span>, de modo geral, traz uma atmosfera mais pesada por meio de seu som. Os drives e distorções da guitarra de <span class="italic-fx">Robert Fripp</span> junto à bateria de <span class="italic-fx">Brufford</span>, imersos no vocal enérgico de <span class="italic-fx">Wetton</span>, trazem uma associação muito interessante da dicotomia dionisíaca já apresentada. "<span class="italic-fx" style="color: #d9d9d9; text-decoration: underline; text-shadow: 2px 2px 10px #000000;">Fallen Angel</span>" é a obscura faixa interligada ao deus do vinho. 
+                            </p>
+                        </div>
+                        
+                        <!--Rogério Skylab - "Vampiro"-->
+                        <h4 style="margin-top: 20px;">Rogério Skylab - <span class="italic-fx">"Vampiro", Skylab & Tragtenberg, vol. 3 (2019)</span></h4>
+                        <div class="container">
+                            <p style="padding: 0;">
+                                "<span class="italic-fx" style="color: #D8D9C7; text-decoration: underline; text-shadow: 2px 2px 10px #000000;">Vampiro</span>", de <span style="font-weight: bold; background-color: #D8D9C7;">Rogério Skylab</span>, canaliza uma melancolia essencialmente humana, mergulhando profundamente em um desespero existencial. Skylab, conhecido por suas letras provocativas e muitas vezes sombrias, faz uso da figura do vampiro como uma metáfora para a alienação e o distanciamento emocional. Assim, ela emana um aspecto inicial de tranquilidade e deleite do homem em sua completude, mas também uma complexa sombra da psiquê humana.
+                            </p>
+                            <div class="img-container box-img">
+                                <a href="https://www.youtube.com/watch?v=uSH9W4uKq_4" target="_blank">    
+                                    <img class="oppacity-fx" src="imgs/skylab.png" alt="Arte de capa do álbum Skylab & Tragtenberg, vol. 3, de Rogério Skylab" width="300px">
+                                </a>
+                                    <p>
+                                    <span class="bolder-fx">Rogério Skylab</span><br>
+                                    <span class="italic-fx">Skylab & Tragtenberg, vol. 3 (2019)</span><br>
+                                    Vampiro
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--Pink Floyd - "Any Colour You Like"-->
+                        <h4 style="margin-top: 20px;">Pink Floyd - <span class="italic-fx">"Any Colour You Like", The Dark Side of the Moon (1973)</span></h4>
+                        <div class="container">
+                            <div class="img-container box-img">
+                                <a href="https://www.youtube.com/watch?v=l8pEjmZVx3k" target="_blank">
+                                    <img class="oppacity-fx" src="imgs/the-dark-side-of-the-moon.png" alt="Arte de capa do álbum The Dark Side of the Moon, de Pink Floyd" width="300px">
+                                </a>
+                                <p>
+                                    <span class="bolder-fx">Pink Floyd</span><br>
+                                    <span class="italic-fx">The Dark Side of the Moon (1973)</span><br>
+                                    Any Colour You Like
+                                </p>
+                            </div>
+                            <p style="font-size: 23px;">
+                                <span style="background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">The Dark Side of the Moon</span>, o clássico progressivo do <span style="font-weight: bold; background-color: #D8D9C7;">Pink Floyd</span>, em 1973, explorou temas como conflito, ganância, tempo, morte e doenças mentais. Os timbres alucinógenos de "<span class="italic-fx" style="color: #d9d9d9; text-decoration: underline; text-shadow: 2px 2px 10px #000000;">Any Colour You Like</span>" trazem uma liberdade cromática refletindo sensações como a introspecção, a contemplação e até mesmo a transcendência. Uma grande peça artística certamente indicada pelo deus das festas e do teatro.
+                            </p>
+                        </div>
+                        
+                        <!--Flaviola - "Noite"-->
+                        <h4 style="margin-top: 20px;">Flaviola e o Bando do Sol - <span class="italic-fx">"Noite", Flaviola e o Bando do Sol (1974)</span></h4>
+                        <div class="container">
+                            <p>
+                                <span class="italic-fx" style="background-color: #D8D9C7;">Flaviola e o Bando do Sol</span> é o primeiro e único álbum do poeta, cantor e compositor recifense <span style="background-color: #D8D9C7; font-weight: bold;">Flaviola</span>, um dos principais expoentes da cena musical psicodélica pernambucana dos anos 1970. O tom melancólico e a sensação de uma escuridão interminável de "<span class="italic-fx" style="color: #d9d9d9; text-decoration: underline; text-shadow: 2px 2px 10px #000000;">Noite</span>" traz uma raiz com grande potência da popular dicotomia <span style="color: #D8D9C7; background-color: #322d37;">apolíneo-dionisíaca</span>.
+                            </p>
+                            <div class="img-container box-img">
+                                <a href="https://www.youtube.com/watch?v=83yJCpZ8Vgs" target="_blank">
+                                    <img class="oppacity-fx" src="imgs/flaviola.png" alt="Arte de capa do álbum Flaviola e o Bando do Sol, de Flaviola e o Bando do Sol" width="300px">
+                                </a>
+                                <p>
+                                    <span class="bolder-fx">Flaviola e o Bando do Sol</span><br>
+                                    <span class="italic-fx">Flaviola e o Bando do Sol (1974)</span><br>
+                                    Noite
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--Camel - Mirage-->
+                        <h4 style="margin-top: 20px;">Camel - <span class="italic-fx">"Nimrodel / The Procession / The White Rider", Mirage (1974)</span></h4>
+                        <div class="container">
+                            <div class="img-container box-img">
+                                <a href="https://www.youtube.com/watch?v=6Ks9W4VGmbw" target="_blank">
+                                    <img class="oppacity-fx" src="imgs/camel-mirage.png" alt="Arte de capa do álbum Mirage, de Camel" width="300px">
+                                </a>
+                                <p style="font-size: 16px">
+                                    <span class="bolder-fx" style="font-size: 20px">Camel</span><br>
+                                    <span class="italic-fx" style="font-size: 20px">Mirage</span><br>
+                                    Nimrodel / The Procession / The White Rider
+                                </p>
+                            </div>
+                            <p style="font-size: 20px;">
+                                "<span class="italic-fx" style="color: #d9d9d9; text-decoration: underline; text-shadow: 2px 2px 10px #000000;">Nimrodel / The Procession / The White Rider</span>" da banda Camel (1974) é uma obra que mergulha profundamente no universo de J.R.R. Tolkien, especificamente na figura de Gandalf, o mago icônico da série "O Senhor dos Anéis". A letra descreve sua metamorfose de <span style="color: #322d37; background-color: #D8D9C7;">Gandalf, o Cinzento</span>, para <span style="color: #D8D9C7; background-color: #322d37;">Gandalf, o Branco</span>, após sua batalha com o Balrog e sua subsequente ressurreição, a simbólica dualidade <span class="italic-fx">chiaroschuro</span> já numerosas vezes citadas nesta página, além de um ritmo ativo e primoroso.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="dev" class="box-content">
+                    <div class="title">
+                        <h2>Sobre o Desenvolvedor</h2>
+                    </div>
+                    <div class="container">
+                        <div class="dev-content" style="margin-bottom: 0;">
+                            <div class="img-container" style="float: left; padding: 30px;">
+                                <a href="https://www.instagram.com/_miraanda12/" target="_blank">
+                                    <img class="hover-fx" src="imgs/miranda.jpg" alt="Imagem de perfil de um rapaz angelical com grande autoestima olhando para câmera junto a seu cachorro" width="350px" style="border-radius: 50%;">
+                                </a>
+                            </div>
+                            <h2 style="padding-bottom: 0;">Miranda (2010 - presente)</h2>
+                            <p style="color: #755d8c; padding: 20px;">
+                                Miranda é um velho de 15 anos com grande apreciação por cinema e música, de modo geral. Tem imensa paixão por King Crimson e prog. Busca no fundo de algum lugar de sua mente trabalhar com pesquisas relacionadas ao campo da física teórica e tem fascínio por matemática. Leitor acíduo de Alan Moore e discreto admirador da literatura russa, deve sonhar algo bobo para algum dia igualmente bobo em sua vida.   
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="dev-content" style="margin-top: 0; border-bottom: 0;">
+                            <p style="color: #322d37; padding: 10px;">&#169; 2025 - Todos os Direitos Reservados.</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
